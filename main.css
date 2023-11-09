@@ -1,0 +1,262 @@
+#headercarousel,
+#middlecarousel,
+#myworkcarousel,
+#middle,
+#mywork,
+#app-developement,
+#my-certificates,
+#contact-info {
+    border-radius: 2rem;
+    margin: 2rem;
+    color: white;
+}
+
+#headercarousel {
+    background-color: #f08a5d;
+    font-family: 'Lobster', cursive;
+    padding: 5.2rem;
+    text-align: center;
+}
+
+
+img {
+    border-radius: 15px;
+}
+
+
+h1 {
+    padding-top: 2.5rem;
+}
+
+#middle {
+    font-size: 1.4rem;
+    background-color: #01c5c4;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 4rem;
+    text-align: center;
+}
+
+.bio {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.container {
+    justify-content: space-around;
+    display: flex;
+}
+
+
+#mywork {
+    font-size: 1.4rem;
+    background-color: #f08a5d;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5.2rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.work {
+    margin-top: 1rem;
+    justify-content: space-around;
+    display: flex;
+}
+
+.file,
+.file1 {
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+
+.bio{
+    margin: 2rem,
+}
+
+
+.work-bio,
+.app-file {
+    margin: 2rem 20rem;
+}
+
+
+
+
+.work-pic {
+    border-radius: 1.5rem;
+}
+
+
+
+.code {
+    padding: 7.5rem;
+    text-align: center;
+}
+
+#mywork a:link {
+    color: white;
+}
+
+#mywork a:hover {
+    color: gold;
+}
+
+
+#app-developement {
+    font-size: 1.4rem;
+    background-color: #01c5c4;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5.2rem;
+    text-align: center;
+}
+
+#app-developement a:link {
+    color: white;
+}
+
+#app-developement a:hover {
+    color: gold;
+}
+
+#app-developement a:visited {
+    color: blue;
+}
+
+.app {
+    margin: 0.7rem;
+    justify-content: space-around;
+    display: flex;
+}
+
+#mycertificates {
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #f08a5d;
+}
+
+#contact-info {
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #f08a5d;
+}
+
+.contact {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gmail {
+    padding: 1.5rem;
+}
+
+
+
+/*                            For mobile device                       */
+
+@media screen and (max-width: 1100px) {
+
+    #headercarousel,
+    #middle,
+    #mywork,
+    #app-developement,
+    #contact-info {
+        margin: 0.7rem;
+    }
+
+    #middle,
+    #mywork,
+    #app-developement {
+        padding: 1rem;
+    }
+
+    #headercarousel img {
+        width: 140px;
+        height: 200px;
+    }
+
+    #headercarousel h1 {
+        font-size: 1.5rem;
+    }
+
+    img {
+        border-radius: 15px;
+    }
+
+    /*    information section start from here*/
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+
+    .logo {
+        width: 120px;
+        height: 120px;
+        padding: 1rem;
+    }
+
+    .bio {
+        font-size: 1.07rem;
+
+    }
+
+
+
+
+    /*    Web Development work section start from here*/
+
+    .work {
+        flex-wrap: wrap;
+    }
+
+    .work-pic {
+        width: 240px;
+        height: 140px;
+    }
+
+    .work-bio {
+        padding: 1.5rem;
+        font-size: 1.07rem;
+        margin: auto;
+    }
+
+
+
+    /*    Android development work section start from here */
+
+    .app {
+        flex-wrap: wrap;
+    }
+
+
+    .file,
+    .file1 {
+        flex-wrap: wrap;
+    }
+
+    .app-file {
+        padding: 1.5rem;
+        font-size: 1.07rem;
+        margin: auto;
+    }
+
+
+
+    /*    contact section start from here */
+
+    .contact-info {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+
+}
